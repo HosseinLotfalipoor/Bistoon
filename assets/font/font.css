@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'IranSansbold';
+  src: url('IRANSansWeb\(FaNum\)_Bold.ttf');
+}
+
+@font-face {
+  font-family: 'IranSans';
+  src: url('IRANSansWeb\(FaNum\)_Medium.ttf');
+
+}
+@font-face {
+  font-family: 'iranLight';
+  src: url('IRANSansWeb\(FaNum\)_Light.ttf');
+}
+
+body , button , a , input , p , span , textarea , form button{
+    font-family: 'IranSans';
+}
+
+h1 , h2 , h3 , h4 , h5 , h6{
+    font-family: 'IranSansbold';
+}
+
+
+.product-price span , .copy-right-logo p , select , .squre-container span{
+  font-family: 'iranLight';
+}
