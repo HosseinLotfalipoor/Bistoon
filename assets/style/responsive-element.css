@@ -315,7 +315,7 @@
     .counters span {
         font-size: 2vw;
     }
-    .swiper-slide {
+    .swiper-slide:not(.header-swiper-slide) {
         width: 41.66% !important;
     }
     .product-info h3 {
