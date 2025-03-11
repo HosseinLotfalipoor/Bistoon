@@ -701,7 +701,7 @@ footer {
     text-decoration: none;
 }
 
-.product-container {
+.product-container.gallery{
     display: flex;
     gap: 45px;
     background: white;
@@ -753,7 +753,7 @@ footer {
     flex: 1;
 }
 
-.product-info h1 , .product-info h3 {
+.product-info h1 ,.gallery .product-info h3 {
     color: var(--light-blue);
     margin-bottom: 15px;
 }
