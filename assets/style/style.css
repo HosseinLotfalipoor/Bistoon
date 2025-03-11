@@ -5,7 +5,10 @@
     --primary-light-gray: #7d7f91;
     --product-color: #354b7e;
 }
-
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 .light-blue-color {
     color: var(--light-blue);
     font-size: inherit;
